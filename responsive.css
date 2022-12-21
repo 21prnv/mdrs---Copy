@@ -56,6 +56,22 @@
     font-size: 15px;
     font-family: "Satoshi-Regular";
   }
+  .m {
+    color: #4c7bf1;
+    font-family: "Satoshi-Bold" !important;
+  }
+  .d {
+    color: #ca3920;
+    font-family: "Satoshi-Bold" !important;
+  }
+  .r {
+    color: #ffb629;
+    font-family: "Satoshi-Bold" !important;
+  }
+  .s {
+    color: #348919;
+    font-family: "Satoshi-Bold" !important;
+  }
   .emoji-1 {
     top: 84px;
     left: 34px;
