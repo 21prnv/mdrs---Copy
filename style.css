@@ -110,7 +110,7 @@
 }
 @font-face {
   font-family: "kristi";
-  src: url("fonts/Kristi-Regular.ttf");
+  src: local("../fonts/Kristi-Regular.ttf");
 }
 @font-face {
   font-family: "black";
