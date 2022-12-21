@@ -1,4 +1,52 @@
 /* Smartphones (portrait and landscape) ----------- */
+@font-face {
+  font-family: "kristi";
+  src: url("../fonts/Kristi-Regular.ttf");
+}
+@font-face {
+  font-family: "black";
+  src: url("../fonts/Satoshi-Black.ttf");
+}
+@font-face {
+  font-family: "mukta";
+  src: url("../fonts/Mukta-Regular.ttf");
+}
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url("../fonts/Satoshi-Light.woff2") format("woff2"),
+    url("../fonts/Satoshi-Light.woff") format("woff"),
+    url("../fonts/Satoshi-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("../fonts/Satoshi-Regular.woff2") format("woff2"),
+    url("../fonts/Satoshi-Regular.woff") format("woff"),
+    url("../fonts/Satoshi-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("../fonts/Satoshi-Medium.woff2") format("woff2"),
+    url("../fonts/Satoshi-Medium.woff") format("woff"),
+    url("../fonts/Satoshi-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("../fonts/Satoshi-Bold.woff2") format("woff2"),
+    url("../fonts/Satoshi-Bold.woff") format("woff"),
+    url("../fonts/Satoshi-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
   .first-text p {
@@ -176,7 +224,7 @@
     font-size: 12px;
     left: 220px;
     top: 1px;
-    font-family: "kristi";
+    font-family: "kristi" !important;
     background: #348919;
     border-radius: 40px 40px 40px 0px;
   }
